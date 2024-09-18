@@ -1,0 +1,70 @@
+body{
+    background-image: url("https://st2.depositphotos.com/3628939/8904/v/600/depositphotos_89042040-stock-illustration-food-items-composition.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin:0;
+}
+.navbar{
+    overflow:hidden;
+    background-color: red;
+}
+.navbar a{
+    text-decoration: none;
+    display:block;
+    float:left;
+    padding:10px 40px 20px 40px;
+    text-align: center;
+    color:black;
+}
+.navbar a:hover{
+    background-color:green;
+    border-radius: 15px 90px;
+    font-size: x-large;
+}
+/* Basic Card Styling */
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  /* Image Styling */
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Content Styling */
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+  }
+  
+  .card-text {
+    color: #555;
+    font-size: 1em;
+  }
+  .icon{
+    width:50px;
+    height:50px;
+    border-radius:50px;
+  }
+  .icon::before{
+    content:"";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://img.freepik.com/free-psd/bowl-biryani-with-chicken-pieces-transparent-background_84443-1317.jpg?w=740&t=st=1725875824~exp=1725876424~hmac=193efa232dac001d1b47fc7b7861151fe1b5f1428a9dec634cfce6f0241c87d7');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
